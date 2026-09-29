@@ -1,0 +1,63 @@
+Data License — af3-isg-viral-ppi-screen
+
+This repository contains two categories of data files under different terms.
+Read carefully before reusing anything from data/.
+
+────────────────────────────────────────────────────────────────────────
+1. AlphaFold 3 outputs
+────────────────────────────────────────────────────────────────────────
+Files: data/af3_outputs/**/*.json, data/af3_outputs/**/*.cif
+
+These files are AlphaFold 3 Output (structure predictions and related
+confidence metrics) as defined by Google DeepMind's AlphaFold 3 Output
+Terms of Use. They are NOT covered by CC BY 4.0 and are NOT freely
+licensed. They are provided free of charge for non-commercial use only,
+in accordance with:
+
+    https://github.com/google-deepmind/alphafold3/blob/main/OUTPUT_TERMS_OF_USE.md
+
+Key restrictions carried over from those terms:
+  - Non-commercial use only (universities, non-profits, research
+    institutes, educational, journalism, and government bodies).
+  - Must not be used on behalf of, or in connection with, any
+    commercial organization or commercial activity.
+  - Must not be used to train machine learning models for biomolecular
+    structure prediction similar to AlphaFold 3.
+  - Any use or redistribution of these outputs must cite:
+
+      Abramson J, et al. Accurate structure prediction of biomolecular
+      interactions with AlphaFold 3. Nature (2024).
+      https://doi.org/10.1038/s41586-024-07487-w
+
+By downloading or using the files in data/af3_outputs/, you agree to be
+bound by the AlphaFold 3 Output Terms of Use linked above.
+
+────────────────────────────────────────────────────────────────────────
+2. All other data files
+────────────────────────────────────────────────────────────────────────
+Files: everything else under data/ (input FASTA files, filtered/aggregated
+result tables, summary CSVs, and other files that do not reproduce raw
+AF3 output)
+
+These files are licensed under Creative Commons Attribution 4.0
+International (CC BY 4.0):
+
+    https://creativecommons.org/licenses/by/4.0/
+
+You are free to share and adapt this data for any purpose, including
+commercially, provided you give appropriate credit.
+
+If you reuse this data, please cite this repository:
+
+    Litvin U. af3-isg-viral-ppi-screen. GitHub.
+    https://github.com/ulad-litvin/af3-isg-viral-ppi-screen.git
+
+    (A manuscript describing this analysis is in preparation; this
+    citation will be updated with the published reference once available.)
+
+────────────────────────────────────────────────────────────────────────
+Note on filtered/aggregated tables
+────────────────────────────────────────────────────────────────────────
+Where a table contains AF3-derived scores (e.g. ipTM, ipSAE),
+the whole file is treated as falling under Section 1 (AF3 Output Terms)
+rather than Section 2, since it substantially derives from AF3 output.
