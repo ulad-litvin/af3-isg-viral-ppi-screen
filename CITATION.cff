@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite this repository. Note: AlphaFold
+  3 output files are governed by separate terms — see
+  LICENSE-DATA for details and the required AF3 citation."
+title: "AlphaFold 3 screen of protein-protein interactions between human ISGs and viral proteins"
+authors:
+  - family-names: Litvin
+    given-names: Ulad
+    affiliation: "MRC-University of Glasgow Centre for Virus Research"
+date-released: 2026-09-29
+url: "https://github.com/ulad-litvin/af3-isg-viral-ppi-screen.git"
+version: "1.0.0"
+keywords:
+  - AlphaFold 3
+  - protein-protein interactions
+  - interferon-stimulated genes
+  - structural bioinformatics
+  - virus-host interactions
